@@ -1,0 +1,6 @@
+[package]
+name = "siv"
+version = "0.1.0"
+authors = ["cetusDownfall"]
+
+[dependencies]
