@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\exercises\rust-exercises\module_practice\work\target\debug\work.exe: C:\Users\okada\Documents\GitHub\exercises\rust-exercises\module_practice\work\word-one\src\lib.rs C:\Users\okada\Documents\GitHub\exercises\rust-exercises\module_practice\work\src\main.rs

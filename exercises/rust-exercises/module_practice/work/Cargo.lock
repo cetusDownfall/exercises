@@ -1,0 +1,11 @@
+[[package]]
+name = "word-one"
+version = "0.1.0"
+
+[[package]]
+name = "work"
+version = "0.1.0"
+dependencies = [
+ "word-one 0.1.0",
+]
+
