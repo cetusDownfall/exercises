@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\exercises\rust-exercises\concurrency_practice\channeling\target\debug\channeling.exe: C:\Users\okada\Documents\GitHub\exercises\rust-exercises\concurrency_practice\channeling\src\main.rs

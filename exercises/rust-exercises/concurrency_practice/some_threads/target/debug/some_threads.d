@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\exercises\rust-exercises\concurrency_practice\some_threads\target\debug\some_threads.exe: C:\Users\okada\Documents\GitHub\exercises\rust-exercises\concurrency_practice\some_threads\src\main.rs

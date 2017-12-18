@@ -1,7 +1,9 @@
+use std::thread;
+use std::time::Duration;
 fn main() {
-    const NUM_DISCS: i32 = 32;
+    const NUM_DISCS: i32 = 10;
     const WIDTH: i32 = 1 + NUM_DISCS*2;
-    //const TERM_SIZE: i32 = 57;
+    const TERM_SIZE: i32 = 57;
     fn disc(size: &i32) -> String {
         if *size <= 0 as i32 {
             String::from("|")
@@ -39,9 +41,9 @@ fn main() {
                                padding_2, tower_2, padding_2,
                                padding_3, tower_3, padding_3)));
         }
-        //for _i in 0..(TERM_SIZE - (*height as i32 + 2)) {
-         //   println!();
-        //}
+        for _i in 0..(TERM_SIZE - (*height as i32 + 2)) {
+            println!();
+        }
         for i in &lines {
             println!("{}", i);
         }
@@ -64,6 +66,7 @@ fn main() {
     fn han<'a>(num: i32, from: &'a usize, via: &'a usize, to: &'a usize, tower_set: &mut Vec<Vec<i32>>) {
         if num == 0 { 
             print_towers(&tower_set);
+            thread::sleep(Duration::from_millis(17));
         } else if num == 1 { 
             println!("Move disc from {} to {}.", from, to); 
             move_disc(*from, *to, tower_set); 
