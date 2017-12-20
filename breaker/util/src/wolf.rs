@@ -24,26 +24,21 @@ fn time_seeded_byte() -> (u8, u64) {
             Err(_)  =>  42,
         })
 }
-pub struct WolfGen(u8,u64);//,i32);
+pub struct WolfGen(u8,u64,u64);
 impl WolfGen {
     pub fn new() -> WolfGen {
         let (val, seed) = time_seeded_byte();
-        WolfGen(val, seed)//, 0)
+        WolfGen(val, seed, 0)
     }
     pub fn next_bool(&mut self) -> bool { self.next_u8()%2==0 }
     pub fn next_u8(&mut self) -> u8 {
-        //self.2 = (self.2+1)%309;
-        //let mut val = 0;
-        //let mut seed = 0;
-        /*if self.2 == 0 {
-            let (a, b) = time_seeded_byte();
-            val = a;
-            seed = b;
-        } else {*/
-            let (val, seed) /*a, b)*/ = seeded_byte(self.1);
-            //val = a;
-            //seed = b;
-        //}
+        let (mut val, mut seed) = seeded_byte(self.1);
+        if (seed & (1<<33)) != 0 {
+            let (a, b) = seeded_byte(seed ^ (val as u64)<<32);
+            let (c, d) = time_seeded_byte();
+            val = a.rotate_left(4) ^ c;
+            seed = b.rotate_left(32) ^ d;
+        }
         self.0 = val;
         self.1 = seed;
         self.0
