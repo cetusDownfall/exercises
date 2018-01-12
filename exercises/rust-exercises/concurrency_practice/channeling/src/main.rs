@@ -11,9 +11,9 @@ fn main() {
             let mut c = hw.lock().unwrap();
             //c.reverse();
             tx.send(c.pop().unwrap()).unwrap();
-        });
+        }).join().unwrap();
     }
-    for _ in 0..13 {
-        print!("{}",  rx.recv().unwrap());
+    for w in rx {
+        print!("{}", w); 
     }
 }

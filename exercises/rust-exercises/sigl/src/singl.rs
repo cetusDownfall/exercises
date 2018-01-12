@@ -1,6 +1,10 @@
-pub struct Node<T: 'static> {
+pub struct Sigl<T> {
+    car: T,
+    cdr: Option<Sigl<T>>
+}
+pub struct Node<T: 'a> {
     a: T,
-    d: Option<&'static Node<T>>,
+    d: Option<&'static Node<T>>
 }
 impl Node<T> {
     fn car<T>(&self) -> T {

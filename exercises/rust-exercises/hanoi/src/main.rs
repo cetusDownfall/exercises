@@ -57,16 +57,12 @@ fn main() {
 
     fn highest_element(tup: &(usize, usize, usize)) -> &usize {
         let tups: Vec<&usize> = vec![&tup.0, &tup.1, &tup.2];
-        let mut highest_so_far: &usize = tups[0];
-        for i in tups {
-            if i > highest_so_far { highest_so_far = i; }
-        }
-        highest_so_far
+        tups.iter().max().unwrap()
     }
     fn han<'a>(num: i32, from: &'a usize, via: &'a usize, to: &'a usize, tower_set: &mut Vec<Vec<i32>>) {
         if num == 0 { 
             print_towers(&tower_set);
-            thread::sleep(Duration::from_millis(17));
+            thread::sleep(Duration::from_millis(1));
         } else if num == 1 { 
             println!("Move disc from {} to {}.", from, to); 
             move_disc(*from, *to, tower_set); 

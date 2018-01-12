@@ -1,0 +1,1 @@
+{"rustc":2878254026448400387,"features":"[\"default\", \"deflate\", \"png-encoding\"]","target":15743766078454355829,"profile":8410117760005530537,"deps":[["bitflags v1.0.1",8004641630161785396],["deflate v0.7.17",12890925588653048029],["inflate v0.3.3",5954350508655727619],["num-iter v0.1.34",1089118647299784351]],"local":[{"Precalculated":"0.11.0"}],"rustflags":[]}

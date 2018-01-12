@@ -1,6 +1,4 @@
-pub mod cellular {
-    pub struct CAPt { //to be read as Cellular Automata Point.
-        
+pub mod base;
 #[cfg(test)]
 mod tests {
     #[test]
