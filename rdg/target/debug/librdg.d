@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\rdg\target\debug\librdg.rmeta: C:\Users\okada\Documents\GitHub\rdg\src\game.rs C:\Users\okada\Documents\GitHub\rdg\src\entities\mod.rs C:\Users\okada\Documents\GitHub\rdg\src\main.rs C:\Users\okada\Documents\GitHub\rdg\src\entities\veloc.rs C:\Users\okada\Documents\GitHub\rdg\src\entities\ball.rs
