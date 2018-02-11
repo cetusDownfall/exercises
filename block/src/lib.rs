@@ -1,5 +1,4 @@
 pub mod margolus_gas;
-pub mod clagger;
 pub mod randxor {
     pub struct Rand(usize);
     impl Rand {

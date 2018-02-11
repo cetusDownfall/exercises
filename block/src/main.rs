@@ -1,8 +1,9 @@
 extern crate piston_window;
 extern crate block;
+extern crate clagger;
 use piston_window::*;
 use block::margolus_gas::Gas;
-use block::clagger::{LineType, Reader};
+use clagger::{LineType, Reader};
 
 fn main() {
     let mut args = Reader::new(LineType::Command);

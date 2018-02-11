@@ -5,10 +5,6 @@ extern crate rand;
 extern crate sprite;
 
 
-/*
-mod settings;
-mod platforms;
-*/
 pub mod game;
 pub mod entities;
 

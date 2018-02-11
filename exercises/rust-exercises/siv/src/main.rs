@@ -1,1 +1,16 @@
-fn main(){const L: i32 = 16384;let mut s: Vec<i32> = (1..(L+1)).collect();let mut i = 1;let mut n = s[i];while n < (L/n) {v(n, &mut s);i += 1;n = s[i];}println!("Done Sieving.");println!("Primes: ");print!("{:?}", s);fn v(h: i32, d: &mut Vec<i32>){d.retain(|&i|!(i%h==0&&h<i&&h>1));}}
+fn main(){
+    const L: i32 = 16384;
+    let mut s: Vec<i32> = (1..(L+1)).collect();
+    let mut i = 1;
+    let mut n = s[i];
+    while n < (L/n) {
+        v(n, &mut s);
+        i += 1;n = s[i];
+    }
+    println!("Done Sieving.");
+    println!("Primes: ");
+    print!("{:?}", s);
+    fn v(h: i32, d: &mut Vec<i32>){
+        d.retain(|&i|!(i%h==0&&h<i&&h>1));
+    }
+}

@@ -1,0 +1,13 @@
+main considerations:
+	Camera: how will it follow the player? I want this to be a fast paced sorta movement based game so this is CRITICAL.
+	Physics/input delay: Must be intuitive. Must be //fast//.
+	Jumping(as a subset of physics): This needs to be good as well. Adjustability?
+	Acceleration/deceleration. did i spell that right.
+	"stickiness"
+	Should there be combat/enemies?
+	Random generation? or predesigned levels?
+	Terrain generation?
+	Slope handling?
+	tiles vs vectors.
+	Center of mass.
+	Aerial motion.

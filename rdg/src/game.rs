@@ -1,5 +1,7 @@
 use piston_window::{
-    Event, clear, Button, Motion, Context, Key, MouseButton, MouseCursorEvent, PistonWindow, PressEvent, ReleaseEvent, RenderEvent, Size, UpdateArgs, UpdateEvent};
+    Event, clear, Button, Motion, Context, Key, MouseButton, MouseCursorEvent, PistonWindow,
+    PressEvent, ReleaseEvent, RenderEvent, Size, UpdateArgs, UpdateEvent, ellipse,
+    Transformed};
 use entities::{Collide, Drawn, Updated, Positioned};
 use entities::ball::Ball;
 use entities::veloc::Veloc;
@@ -69,9 +71,8 @@ impl Game {
     }
     fn draw(&self, context: Context, graphics: &mut GlGraphics) {
         clear([0.0, 0.0, 0.0, 1.0], graphics);
-        for ball in &self.balls {
-            ball.draw(context, graphics);
-        }
+        ellipse([1.0; 4], [-50.0, -50.0, 100.0, 100.0], context.transform.trans(1024.0, 720.0), graphics);
+        for ball in &self.balls { ball.draw(context, graphics); }
     }
 }
 impl Updated for Game {
