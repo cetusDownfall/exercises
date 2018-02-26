@@ -1,0 +1,7 @@
+[package]
+name = "wireworld"
+version = "0.1.0"
+authors = ["cetusDownfall <34458545+cetusDownfall@users.noreply.github.com>"]
+
+[dependencies]
+piston_window = "0.76.0"

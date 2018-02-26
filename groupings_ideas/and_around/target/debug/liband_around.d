@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\target\debug\liband_around.rlib: C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\group.rs C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\lib.rs C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\buffer.rs

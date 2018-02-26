@@ -1,0 +1,65 @@
+Metro: A language for enabling musical notation in a simple, textual format.
+
+Goals: 
+	Allow for at least some of the expressiveness of a 
+	traditional musical notation while allowing easy 
+	typing and editing in a text editor.
+
+Reqs:
+	Tempo changes
+	Volume changes
+	Sharps/flats
+	Key signatures (?)
+	Octave changes
+	Half notes, whole notes, quarter notes, triplets, etc.
+	Looping patterns
+	Simultaneous playing of multiple tracks.
+
+Notation:
+	Each "note" is represented by a letter and modifiers.
+	asdfjkl are abcdefg in traditional musical notation.
+	concert a or 440 hz is a.
+	pitch modifiers: /\
+		/ sharp
+		\ flat
+	articulation modifiers: ~-_`
+		~ vibrato
+		- sustain
+	independent modifiers: ><][
+		> lower volume
+		< raise volume
+		[ lower octave
+		] raise octave
+		_ dampen
+		(tbd) ( start slur
+		      ) end slur
+	tempo modifiers: ,.
+		, lower tempo
+		. increase tempo
+	a note can take a pitch and an articulation modifier, 
+	and independent modifiers are to be used away from notes.
+	Ex: a` would play a staccato concert a.
+
+Organisation:
+	A piece will begin at the start tag.
+	Tags look like this - :example
+	Tags should be on their own line.
+	two special tags - :start and :end
+	start starts the piece, end ends the piece.
+	:start tag: can be used to begin playing the section beneath a tag.
+	:end tag: is used to indicate the end of a section without ending others.
+		^ where tag is any sequence of characters.
+	{ } can be used to make anonymous sections.
+	:tag: { } { } { } :end tag: can be used to play multiple things at once, or
+	can be used inline:
+		:start
+			{a---}
+			{d---}
+			{k---}
+		:end
+	would play an a minor chord (i think?)
+	note that independent modifiers are local to their section.
+	tempos should not be
+	tempos can be put after a start tag to play at a certain speed :start tag tempo
+	Note that the tempo of the current section will be used if omitted.
+	the first start tag defaults to 60 bpm.

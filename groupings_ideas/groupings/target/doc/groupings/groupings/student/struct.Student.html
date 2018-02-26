@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `Student` struct in crate `groupings`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, Student">
+
+    <title>groupings::groupings::student::Student - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc struct">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Struct Student</p><div class="block items"><a class="sidebar-title" href="#methods">Methods</a><div class="sidebar-links"><a href="#method.id">id</a><a href="#method.new">new</a><a href="#method.get_weight">get_weight</a><a href="#method.set_weight">set_weight</a><a href="#method.inc_weight">inc_weight</a><a href="#method.set_pair_weight">set_pair_weight</a><a href="#method.name">name</a></div></div><p class='location'><a href='../../index.html'>groupings</a>::<wbr><a href='../index.html'>groupings</a>::<wbr><a href='index.html'>student</a></p><script>window.sidebarCurrent = {name: 'Student', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../../index.html'>groupings</a>::<wbr><a href='../index.html'>groupings</a>::<wbr><a href='index.html'>student</a>::<wbr><a class="struct" href=''>Student</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#7-11' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct Student { /* fields omitted */ }</pre>
+                    <h2 id='methods' class='small-section-header'>
+                      Methods<a href='#methods' class='anchor'></a>
+                    </h2>
+                <h3 id='impl' class='impl'><span class='in-band'><code>impl <a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a></code><a href='#impl' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#12-72' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.id' class="method"><span id='id.v' class='invisible'><code>pub fn <a href='#method.id' class='fnname'>id</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#14-16' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Returns the ID as a usize</p>
+</div><h4 id='method.new' class="method"><span id='new.v' class='invisible'><code>pub fn <a href='#method.new' class='fnname'>new</a>(id: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>, name: <a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>, weight_ct: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>) -&gt; <a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#18-24' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Student constructor. Takes an id, a name, and a number of weight slots to provide.</p>
+</div><h4 id='method.get_weight' class="method"><span id='get_weight.v' class='invisible'><code>pub fn <a href='#method.get_weight' class='fnname'>get_weight</a>(p1: &amp;<a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a>, p2: &amp;<a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#41-48' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Returns the weight of a grouping of p1 and p2, if they are the same.
+Otherwise, returns the higher weight or none.</p>
+</div><h4 id='method.set_weight' class="method"><span id='set_weight.v' class='invisible'><code>pub fn <a href='#method.set_weight' class='fnname'>set_weight</a>(&amp;mut self, p: &amp;<a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a>, weight: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#50-56' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Setter for weight of a student.</p>
+</div><h4 id='method.inc_weight' class="method"><span id='inc_weight.v' class='invisible'><code>pub fn <a href='#method.inc_weight' class='fnname'>inc_weight</a>(&amp;mut self, index: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#58-62' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Increments weight by 1 at a given index.</p>
+</div><h4 id='method.set_pair_weight' class="method"><span id='set_pair_weight.v' class='invisible'><code>pub fn <a href='#method.set_pair_weight' class='fnname'>set_pair_weight</a>(p1: &amp;mut <a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a>, p2: &amp;mut <a class="struct" href="../../../groupings/groupings/student/struct.Student.html" title="struct groupings::groupings::student::Student">Student</a>, weight: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;)</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#64-67' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Sets a pair of students to a weight.</p>
+</div><h4 id='method.name' class="method"><span id='name.v' class='invisible'><code>pub fn <a href='#method.name' class='fnname'>name</a>(&amp;self) -&gt; &amp;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/groupings/groupings/student.rs.html#69-71' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Access the name field immutably.</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>↑</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>↓</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>↹</dt>
+                    <dd>Switch tab</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt style="width:31px;">+ / -</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../../";
+        window.currentCrate = "groupings";
+    </script>
+    <script src="../../../main.js"></script>
+    <script defer src="../../../search-index.js"></script>
+</body>
+</html>

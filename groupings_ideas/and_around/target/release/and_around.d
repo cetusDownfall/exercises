@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\target\release\and_around.exe: C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\lib.rs C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\main.rs C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\buffer.rs C:\Users\okada\Documents\GitHub\groupings_ideas\and_around\src\group.rs

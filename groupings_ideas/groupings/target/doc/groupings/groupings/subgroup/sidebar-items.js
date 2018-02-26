@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Subgroup","A small group of students. The second member is a max size."]]});

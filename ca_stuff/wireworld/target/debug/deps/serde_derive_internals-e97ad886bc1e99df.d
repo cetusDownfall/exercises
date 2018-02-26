@@ -1,0 +1,10 @@
+C:\Users\okada\Documents\GitHub\ca_stuff\wireworld\target\debug\deps\libserde_derive_internals-e97ad886bc1e99df.rlib: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ast.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\attr.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ctxt.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\case.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\check.rs
+
+C:\Users\okada\Documents\GitHub\ca_stuff\wireworld\target\debug\deps\serde_derive_internals-e97ad886bc1e99df.d: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ast.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\attr.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ctxt.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\case.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\check.rs
+
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\lib.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ast.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\attr.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\ctxt.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\case.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\serde_derive_internals-0.19.0\src\check.rs:

@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["group","Contains group and methods for it."],["student","Module containing student and methods for it."],["subgroup","Module containing the subgroup struct and methods for it."]]});

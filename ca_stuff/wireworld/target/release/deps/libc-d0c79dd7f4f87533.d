@@ -1,0 +1,13 @@
+C:\Users\okada\Documents\GitHub\ca_stuff\wireworld\target\release\deps\liblibc-d0c79dd7f4f87533.rlib: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\macros.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\dox.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\windows.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\net.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\cloudabi\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\fuchsia\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\unix\mod.rs
+
+C:\Users\okada\Documents\GitHub\ca_stuff\wireworld\target\release\deps\libc-d0c79dd7f4f87533.d: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\macros.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\dox.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\windows.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\net.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\cloudabi\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\fuchsia\mod.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\unix\mod.rs
+
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\lib.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\macros.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\dox.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\windows.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\mod.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\redox\net.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\cloudabi\mod.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\fuchsia\mod.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.36\src\unix\mod.rs:
