@@ -1,0 +1,11 @@
+C:\Users\okada\Documents\GitHub\ca_stuff\block\target\release\deps\libgfx_device_gl-b26e7a829ab82ba2.rlib: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\command.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\factory.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\info.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\shade.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\state.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\tex.rs
+
+C:\Users\okada\Documents\GitHub\ca_stuff\block\target\release\deps\gfx_device_gl-b26e7a829ab82ba2.d: C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\lib.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\command.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\factory.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\info.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\shade.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\state.rs C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\tex.rs
+
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\lib.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\command.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\factory.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\info.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\shade.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\state.rs:
+C:\Users\okada\.cargo\registry\src\github.com-1ecc6299db9ec823\gfx_device_gl-0.14.6\src\tex.rs:

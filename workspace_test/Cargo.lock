@@ -1,0 +1,11 @@
+[[package]]
+name = "vectils"
+version = "0.1.0"
+
+[[package]]
+name = "workspace_test"
+version = "0.1.0"
+dependencies = [
+ "vectils 0.1.0",
+]
+

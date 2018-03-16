@@ -1,0 +1,1 @@
+C:\Users\okada\Documents\GitHub\exercises\rust-exercises\input_practice\target\debug\input_practice.exe: C:\Users\okada\Documents\GitHub\exercises\rust-exercises\input_practice\src\main.rs C:\Users\okada\Documents\GitHub\exercises\rust-exercises\input_practice\src\lib.rs
